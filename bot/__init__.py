@@ -60,9 +60,9 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hay, silahkan ketik pesanmu dibawah ini, nanti saya akan membalasanya Jika sudah online.\n"
+    "Wᴇʟᴄᴏᴍᴇ Tᴏ AᴘʟᴇxGʀᴀᴍ Bᴏᴛ,Oғғɪᴄɪᴀʟʟʏ Mᴀᴅᴇ Bʏ @AplexGiveaways Fᴏʀ Usᴇʀs Wʜᴏ Wᴀɴᴛ Tᴏ Rᴇɢɪsᴛᴇʀ Tʜᴇɪʀ Pʀᴏʙʟᴇᴍs Iɴ Oᴜʀ Bᴏʏ\n"
     "───────────────────────\n"
-    "©Manage by : @Vckyouubitch"
+    "Cʀᴇᴀᴛᴏʀ Aɴᴅ Mᴀɴᴀɢᴇʀ :- [Tᴇᴀᴍ AᴘʟᴇxGʀᴀᴍ](https://t.me/AplexGram)"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -73,8 +73,8 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "Sistem berfungsi <b>master</b>\n"
-        "Jangan lupa join [Channel Support](https://t.me/Vckyouuu)"
+        "Sʏsᴛᴇᴍ <b>master</b>\n"
+        "Jᴏɪɴ Sᴜᴘᴘᴏʀᴛ [Cʜᴀɴɴᴇʟ](https://t.me/AplexGram)"
     )
 )
 # message to indicate,
@@ -83,8 +83,8 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "Pesan ini sudah dihapus\n"
-        "Jangan lupa Join [Channel Support](https://t.me/Vckyouuu)"
+        "Pʀᴏʙʟᴇᴍs Hᴇʀᴇ\n"
+        "Jᴏɪɴ Sᴜᴘᴘᴏʀᴛ [Cʜᴀɴɴᴇʟ](https://t.me/AplexGram)"
     )
 )
 # IDEKWBYRW
@@ -96,8 +96,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>banned</b> forever.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "Bᴀɴɴᴇᴅ Usᴇʀ Cᴀɴ'ᴛ Usᴇ Tʜɪs Bᴏᴛ <b>banned</b> forever.\n\n"
+        "<u>Rᴇᴀsᴏɴ Is Mᴇɴᴛɪᴏɴᴇᴅ</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -109,8 +109,8 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>un-banned</b>.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "Uɴʙᴀɴɴᴇᴅ Usᴇʀ <b>un-banned</b>.\n\n"
+        "<u>Rᴇᴀsᴏɴ Is Mᴇɴᴛɪᴏɴᴇᴅ</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
